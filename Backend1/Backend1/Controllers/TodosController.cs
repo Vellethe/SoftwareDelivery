@@ -131,7 +131,7 @@ namespace APIWithDatabase.Controllers
             return NoContent();
         }
 
-        [HttpGet("{completed}")]
+        [HttpGet("completed")]
         public ActionResult GetCompletedNotes(bool? completed)
         {
             IQueryable<Note> query = _database.Notes;

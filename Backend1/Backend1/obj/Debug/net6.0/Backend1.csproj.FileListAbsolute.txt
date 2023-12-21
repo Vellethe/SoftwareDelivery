@@ -272,3 +272,4 @@ C:\Users\Allan\OneDrive\Documents\GitHub\SoftwareDelivery\Backend1\Backend1\obj\
 C:\Users\Allan\OneDrive\Documents\GitHub\SoftwareDelivery\Backend1\Backend1\obj\Debug\net6.0\Backend1.pdb
 C:\Users\Allan\OneDrive\Documents\GitHub\SoftwareDelivery\Backend1\Backend1\obj\Debug\net6.0\Backend1.genruntimeconfig.cache
 C:\Users\Allan\OneDrive\Documents\GitHub\SoftwareDelivery\Backend1\Backend1\obj\Debug\net6.0\ref\Backend1.dll
+C:\Users\Allan\OneDrive\Documents\GitHub\SoftwareDelivery\Backend1\Backend1\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.InMemory.dll

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ohxpazj1aIg5j8kKTv+TbsSTkJrZqgMWmU/WqcarUK/hz36ZlGmdX47L6xrDE57ryZK1hu8FYaes2DX3Vuf1wQ==",
+  "dgSpecHash": "rJtU/PMYultiU9exWKFwX/jYNNlkM6geEod+5OWznwIVzVQq+3IL2x2VL7IT/6zAtxOtyAp1oQjLzqRfLvN/iQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Allan\\OneDrive\\Documents\\GitHub\\SoftwareDelivery\\Backend1\\Backend1\\Backend1.csproj",
   "expectedPackageFiles": [
@@ -12,6 +12,7 @@
     "C:\\Users\\Allan\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.15\\microsoft.entityframeworkcore.abstractions.6.0.15.nupkg.sha512",
     "C:\\Users\\Allan\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\6.0.15\\microsoft.entityframeworkcore.analyzers.6.0.15.nupkg.sha512",
     "C:\\Users\\Allan\\.nuget\\packages\\microsoft.entityframeworkcore.design\\6.0.15\\microsoft.entityframeworkcore.design.6.0.15.nupkg.sha512",
+    "C:\\Users\\Allan\\.nuget\\packages\\microsoft.entityframeworkcore.inmemory\\6.0.15\\microsoft.entityframeworkcore.inmemory.6.0.15.nupkg.sha512",
     "C:\\Users\\Allan\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\6.0.15\\microsoft.entityframeworkcore.relational.6.0.15.nupkg.sha512",
     "C:\\Users\\Allan\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\6.0.15\\microsoft.entityframeworkcore.sqlserver.6.0.15.nupkg.sha512",
     "C:\\Users\\Allan\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\6.0.15\\microsoft.entityframeworkcore.tools.6.0.15.nupkg.sha512",
