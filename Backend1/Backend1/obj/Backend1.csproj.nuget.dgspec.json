@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\GitHub\\Submits-Backend\\Backend1\\Backend1\\Backend1.csproj": {}
+    "C:\\Users\\Allan\\OneDrive\\Documents\\GitHub\\SoftwareDelivery\\Backend1\\Backend1\\Backend1.csproj": {}
   },
   "projects": {
-    "D:\\GitHub\\Submits-Backend\\Backend1\\Backend1\\Backend1.csproj": {
+    "C:\\Users\\Allan\\OneDrive\\Documents\\GitHub\\SoftwareDelivery\\Backend1\\Backend1\\Backend1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GitHub\\Submits-Backend\\Backend1\\Backend1\\Backend1.csproj",
+        "projectUniqueName": "C:\\Users\\Allan\\OneDrive\\Documents\\GitHub\\SoftwareDelivery\\Backend1\\Backend1\\Backend1.csproj",
         "projectName": "Backend1",
-        "projectPath": "D:\\GitHub\\Submits-Backend\\Backend1\\Backend1\\Backend1.csproj",
+        "projectPath": "C:\\Users\\Allan\\OneDrive\\Documents\\GitHub\\SoftwareDelivery\\Backend1\\Backend1\\Backend1.csproj",
         "packagesPath": "C:\\Users\\Allan\\.nuget\\packages\\",
-        "outputPath": "D:\\GitHub\\Submits-Backend\\Backend1\\Backend1\\obj\\",
+        "outputPath": "C:\\Users\\Allan\\OneDrive\\Documents\\GitHub\\SoftwareDelivery\\Backend1\\Backend1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Allan\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -41,10 +41,6 @@
           "targetAlias": "net6.0",
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[6.0.15, )"
-            },
-            "Microsoft.EntityFrameworkCore.InMemory": {
               "target": "Package",
               "version": "[6.0.15, )"
             },
