@@ -1,7 +1,7 @@
+using Todo.Data;
+using Todo.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using Todo.Models;
-using Todo.Data;
 
 namespace APIWithDatabase.Controllers
 {

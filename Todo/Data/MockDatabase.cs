@@ -1,7 +1,8 @@
-﻿using Todo.Models;
+﻿using Todo.Data;
+using Todo.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace Todo.Data
+namespace Todo1.Data
 {
     public class MockDatabase
     {

@@ -1,5 +1,4 @@
-﻿using System.Collections.Generic;
-using Todo.Models;
+﻿using Todo.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace Todo.Data
