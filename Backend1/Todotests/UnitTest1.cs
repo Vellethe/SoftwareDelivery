@@ -20,7 +20,11 @@ public class NotesControllerTests : IDisposable
 
         _context.Notes.AddRange(
             new Note { Text = "Note 1", IsDone = false },
-            new Note { Text = "Note 2", IsDone = true }
+            new Note { Text = "Note 2", IsDone = true },
+            new Note { Text = "Note 3", IsDone = true },
+            new Note { Text = "Note 4", IsDone = false },
+            new Note { Text = "Note 5", IsDone = true },
+            new Note { Text = "Note 6", IsDone = true }
         );
         _context.SaveChanges();
     }
@@ -38,7 +42,7 @@ public class NotesControllerTests : IDisposable
         Assert.IsType<OkResult>(result);
 
         // Check that the note has been added to the database
-        Assert.Equal(1, _context.Notes.Count());
+        Assert.Equal(2, _context.Notes.Count());
         Assert.Equal("Test Note", _context.Notes.First().Text);
     }
 
@@ -55,7 +59,7 @@ public class NotesControllerTests : IDisposable
         Assert.IsType<NoContentResult>(result);
 
         // Check that completed notes have been removed from the database
-        Assert.Equal(1, _context.Notes.Count());
+        Assert.Equal(2, _context.Notes.Count());
         Assert.Equal("Note 2", _context.Notes.First().Text);
     }
 
@@ -74,7 +78,7 @@ public class NotesControllerTests : IDisposable
         // Check that the correct number of remaining notes is returned
         var value = (result as OkObjectResult)?.Value;
         Assert.NotNull(value);
-        Assert.Equal(1, Convert.ToInt32(value));
+        Assert.Equal(2, Convert.ToInt32(value));
     }
 
     public void Dispose()
