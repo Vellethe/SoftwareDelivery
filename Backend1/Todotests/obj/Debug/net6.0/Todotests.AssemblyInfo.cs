@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Todotests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b185dff13ebb41b2a60d081978327cc71b7c27f7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d06cebc23232a11c31b82184aa1d2d951ea5f1fe")]
 [assembly: System.Reflection.AssemblyProductAttribute("Todotests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Todotests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

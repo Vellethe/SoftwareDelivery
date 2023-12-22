@@ -3,7 +3,6 @@ using Backend1.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
-
 namespace APIWithDatabase.Controllers
 {
     [ApiController]
@@ -144,6 +143,16 @@ namespace APIWithDatabase.Controllers
             var notes = query.ToList();
 
             return Ok(notes);
+        }
+
+        public object AddNote(Note note)
+        {
+            throw new NotImplementedException();
+        }
+
+        public object GetNoteByText(string v)
+        {
+            throw new NotImplementedException();
         }
     }
 }
