@@ -10,3 +10,8 @@ Tests that the method successfully removes the note with that specific ID. In my
 Tests that the method successfully removes all the completed notes, check so that the "completed section" is empty. The equal checks that all notes that are "false" are still there and that the first false note is existing. This test has been done with other notes being the first false note and its been working everytime.
 ###ReturnsNumberOfRemainingNotes()
 Tests that the method returns all the incompleted notes, a similar test to the ClearCompletedNotes() but instead of deleting the completed ones it just reads through the incompleted and confirms how many of them there are.
+
+##Delivery/Performance 
+All the tests are done and green. Did some minor refactoring on the controllers and tried running the tests again after that, the tests came back green and successful once again.
+
+##Delivered 2023-12-23
