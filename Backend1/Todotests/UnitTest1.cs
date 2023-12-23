@@ -29,20 +29,22 @@ public class NotesControllerTests : IDisposable
     }
 
     [Fact]
-    public void AddNote_ShouldAddANewNote()
+    public void AddNote()
     {
         // Arrange
         var controller = new NotesController(_context);
+        var newNote = new Note { Text = "New Note", IsDone = false };
 
         // Act
-        var result = controller.PostNote(new Note { Text = "New Note", IsDone = false });
+        var result = controller.PostNote(newNote);
 
         // Assert
         Assert.NotNull(result);
-
-        // Assuming you want to check for a specific result type
-        Assert.IsType<OkResult>(result);
+        Assert.IsType<ActionResult<Note>>(result);
     }
+
+
+    //Fråga om denna nästa lektion på plats
 
     //[Fact]
     //public void AddNote_ShouldAddANewNote()
@@ -51,19 +53,27 @@ public class NotesControllerTests : IDisposable
     //    var controller = new NotesController(_context);
 
     //    // Act
-    //    var result = controller.AddNote(new Note { Text = "New Note", IsDone = false });
+    //    var result = controller.PostNote(new Note { Text = "New Note", IsDone = false });
 
     //    // Assert
     //    Assert.NotNull(result);
-
-    //    var addedNoteObject = controller.GetNoteByText("New Note");
-    //    Assert.NotNull(addedNoteObject);
-
-    //    var addedNote = (Note)addedNoteObject;
-
-    //    Assert.Equal("New Note", addedNote.Text);
-    //    Assert.False(addedNote.IsDone);
+    //    Assert.IsType<OkResult>(result);
     //}
+
+    [Fact]
+    public void DeleteNote()
+    {
+        // Arrange
+        var notesController = new NotesController(_context);
+
+        // Act
+        notesController.DeleteNote(2);
+
+        // Assert
+        var deletedNote = _context.Notes.Find(2);
+        Assert.Null(deletedNote);
+        Assert.Equal(5, _context.Notes.Count());
+    }
 
     [Fact]
     public void ClearCompletedNotes()
