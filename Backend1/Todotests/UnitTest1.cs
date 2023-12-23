@@ -67,10 +67,10 @@ public class NotesControllerTests : IDisposable
         var notesController = new NotesController(_context);
 
         // Act
-        notesController.DeleteNote(2);
+        notesController.DeleteNote(4);
 
         // Assert
-        var deletedNote = _context.Notes.Find(2);
+        var deletedNote = _context.Notes.Find(4);
         Assert.Null(deletedNote);
         Assert.Equal(5, _context.Notes.Count());
     }
