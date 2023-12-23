@@ -7559,19 +7559,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\User\\.nuget\\packages\\": {}
+    "C:\\Users\\Allan\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\OneDrive\\Dokument\\GitHub\\SoftwareDelivery\\Backend1\\Todotests\\Todotests.csproj",
+      "projectUniqueName": "C:\\Users\\Allan\\OneDrive\\Documents\\GitHub\\SoftwareDelivery\\Backend1\\Todotests\\Todotests.csproj",
       "projectName": "Todotests",
-      "projectPath": "C:\\Users\\User\\OneDrive\\Dokument\\GitHub\\SoftwareDelivery\\Backend1\\Todotests\\Todotests.csproj",
-      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\OneDrive\\Dokument\\GitHub\\SoftwareDelivery\\Backend1\\Todotests\\obj\\",
+      "projectPath": "C:\\Users\\Allan\\OneDrive\\Documents\\GitHub\\SoftwareDelivery\\Backend1\\Todotests\\Todotests.csproj",
+      "packagesPath": "C:\\Users\\Allan\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Allan\\OneDrive\\Documents\\GitHub\\SoftwareDelivery\\Backend1\\Todotests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Allan\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -7585,8 +7585,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\User\\OneDrive\\Dokument\\GitHub\\SoftwareDelivery\\Backend1\\Backend1\\Backend1.csproj": {
-              "projectPath": "C:\\Users\\User\\OneDrive\\Dokument\\GitHub\\SoftwareDelivery\\Backend1\\Backend1\\Backend1.csproj"
+            "C:\\Users\\Allan\\OneDrive\\Documents\\GitHub\\SoftwareDelivery\\Backend1\\Backend1\\Backend1.csproj": {
+              "projectPath": "C:\\Users\\Allan\\OneDrive\\Documents\\GitHub\\SoftwareDelivery\\Backend1\\Backend1\\Backend1.csproj"
             }
           }
         }
@@ -7642,7 +7642,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }
